@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { NFTList } from '../components/NFTList'
+import { WalletDetails } from '../components/WalletDetails'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <WalletDetails />
         <NFTList />
       </main>
 
