@@ -42,6 +42,7 @@ export const NFTList: React.FC = () => {
                 alt={nft.metadata.name}
                 objectFit="contain"
                 layout="fill"
+                unoptimized
                 priority
               />
             </div>
